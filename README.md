@@ -35,7 +35,7 @@ yarn build
 <body>
   <script type="text/javascript" src='cms.js'/>
   <script>
-    CMS.registerBackends("offline", OfflineBackendClass)
+    CMS.registerBackend("offline", OfflineBackendClass)
   </script>
 </body>
 ```
