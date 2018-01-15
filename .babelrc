@@ -1,0 +1,14 @@
+{
+  "presets": [
+    ["env",
+      { "modules": false }
+    ],
+    "react"
+  ],
+  "plugins": [
+    ["transform-runtime", {
+      "useBuiltIns": true,
+      "useESModules": true
+    }]
+  ]
+}
